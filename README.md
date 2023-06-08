@@ -6,3 +6,5 @@ These Projects prepares me for a career as a Data Analyst / Analytics profession
 # Technical Skills Utilized
 * Power Bi
 * Excel
+* SQL
+* Python
