@@ -2,7 +2,16 @@
 In this project, I aim to predict loan approval status using various machine learning algorithms.
 The process involves data cleaning, exploratory data analysis (EDA), feature engineering, model training, and model Evaluation using
 different classification and Regression algorithms.
+
 # Table of Contents
+* Introduction
+* Dataset
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Modeling
+* Results
+* conclusion
 
 # Introduction
 The objective of this project is to build a machine-learning model that can predict whether
@@ -34,6 +43,13 @@ During the data-cleaning phase, I performed the following steps:
 # Exploratory Data Analysis (EDA)
 In the EDA phase, I analyzed the dataset to understand
 the relationships between features and the target variable. Key steps included:
+* Visualizing distributions of features
+* Identifying correlations between features
+* Detecting outliers
+
+# Featue Engineering
+Feature engineering involves creating new features and transforming existing ones
+to improve the performance of the machine learning models. Steps included:
 * Scaling numerical features
 * Encoding categorical variables using LabelEncoder
 * Creating interactive visuals for a better understanding
@@ -53,3 +69,8 @@ Below are the detailed performance metrics for each model:
 * Decision Tree: 68.29
 * Random Forest: 78.04
 * KNN: 71.54
+
+# Conclusion
+This project demonstrates the application of various machine learning algorithms
+to predict loan approval status. The Logistic Regression algorithm can be used to assist financial institutions
+in making informed loan approval decisions.
