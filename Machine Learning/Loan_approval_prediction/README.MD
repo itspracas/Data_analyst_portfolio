@@ -11,15 +11,45 @@ This is a binary classification problem where the target variable indicates the 
 
 # Dataset
 * Loan_ID: Unique Loan ID
-Gender: Gender of the applicant
-Married: Marital status of the applicant
-Dependents: Number of dependents
-Education: Education level of the applicant
-Self_Employed: Whether the applicant is self-employed
-ApplicantIncome: Income of the applicant
-CoapplicantIncome: Income of the co-applicant
-LoanAmount: Loan amount requested
-Loan_Amount_Term: Term of the loan in months
-Credit_History: Credit history of the applicant
-Property_Area: Area where the property is located
-Loan_Status: Whether the loan was approved or not (target variable)
+* Gender: The gender of the applicant
+* Married: Marital status of the applicant
+* Dependents: Number of dependents
+* Education: The education level of the applicant
+* Self_Employed: Whether the applicant is self-employed
+* ApplicantIncome: Income of the applicant
+* CoapplicantIncome: Income of the co-applicant
+* LoanAmount: Loan amount requested
+* Loan_Amount_Term: Term of the loan in months
+* Credit_History: Credit history of the applicant
+* Property_Area: Area where the property is located
+* Loan_Status: Whether the loan was approved or not (target variable)
+
+# Data Cleaning
+During the data-cleaning phase, I performed the following steps:
+* Handled missing values
+* Converted categorical variables to numerical formats using LabelEncoder
+* Removed duplicate records
+* Ensured data consistency
+
+# Exploratory Data Analysis (EDA)
+In the EDA phase, I analyzed the dataset to understand
+the relationships between features and the target variable. Key steps included:
+* Scaling numerical features
+* Encoding categorical variables using LabelEncoder
+* Creating interactive visuals for a better understanding
+
+# Modeling
+I used the following machine learning algorithms to predict loan approval status:
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* K-Nearest Neighbors (KNN)
+
+# Results
+After training and evaluating the models, I found that
+the Logistic Regression achieved an accuracy of 78.86.
+Below are the detailed performance metrics for each model:
+* Logistic Regression: 78.86
+* Decision Tree: 68.29
+* Random Forest: 78.04
+* KNN: 71.54
