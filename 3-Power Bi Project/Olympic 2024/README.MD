@@ -1,5 +1,5 @@
 # Olympic 2024 Data Analysis
-* Project Description
+## Project Description
 The Olympic Data Analysis Dashboard is a dynamic tool designed to provide in-depth insights into the Olympic Games' history and performance metrics. Leveraging interactive visualizations, the dashboard enables users to explore key data points and trends across different countries, sports, and periods.
 * Interactive Analysis: Explore the Olympic Games data with an interactive Power BI dashboard.
 * Country Performance: Visualizes the medal tally by country, showcasing top performers across different Olympics.
