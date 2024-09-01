@@ -35,5 +35,3 @@ The Olympic Data Analysis Dashboard is a dynamic tool designed to provide in-dep
 
 - Data Model:
   - The underlying data model includes relationships between tables, enabling complex queries and accurate data aggregation across different dimensions.
-
-## photos
