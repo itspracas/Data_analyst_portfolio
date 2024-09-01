@@ -18,4 +18,22 @@ The Olympic Data Analysis Dashboard is a dynamic tool designed to provide in-dep
 
 - Key Metrics (KPIs):
   - The dashboard highlights key performance indicators (KPIs), including total medals, gold medals, silver medals, bronze medals, and the total number of athletes, giving a quick overview of crucial metrics.
+
+- Pages and Structure:
+  - The dashboard is organized into four pages: Home, Overview, Athletes, Country, and Historical. Each page is designed to provide a detailed analysis of different aspects of the Olympic data:
+    - Home: Serves as the entry point, summarizing key insights.
+    - Overview: Provides a broad analysis of medal counts and country performance.
+    - Athletes: Focuses on individual athlete performance and statistics.
+    - Country: Offers a deep dive into country-specific data.
+    - Historical: Analyzes trends and performance over time.
+
+- Interactivity:
+  - The dashboard leverages bookmarks for quick navigation, along with page navigation features. Slicers with continuous scroll and pagination enhance the user experience, allowing for smooth data exploration.
+
+- DAX Calculations:
+  - Custom DAX formulas have been utilized to calculate key measures, ensuring accurate and dynamic metrics across the dashboard.
+
+- Data Model:
+  - The underlying data model includes relationships between tables, enabling complex queries and accurate data aggregation across different dimensions.
+
 ## photos
