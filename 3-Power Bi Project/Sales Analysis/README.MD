@@ -2,7 +2,7 @@
 ## Project Description
 The "Chocolate Sales Analysis" project aims to provide an in-depth analysis of each product and salesperson within the chocolate sales data. This analysis helps to understand the sales trends, performance of salespersons, and profitability of products.
 ## Project Objectives
-- To analyze sales performance by product and salesperson.
+- To analyze sales performance by product and salesperson over different geography.
 - To track monthly changes in sales, profit, shipment, cost, and boxes.
 - To identify products with low box shipments.
 ## Key Features
